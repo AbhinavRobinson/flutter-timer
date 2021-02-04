@@ -7,8 +7,14 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Pomodoro Timer'),
+        centerTitle: true,
+        title: Text(
+          'Pomodoro Timer',
+          style: TextStyle(color: Colors.yellowAccent),
+        ),
+        backgroundColor: Colors.black87,
       ),
+      backgroundColor: Color.fromRGBO(33, 33, 45, 1),
     );
   }
 }
