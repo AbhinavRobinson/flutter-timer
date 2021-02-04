@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_timer/screens/home_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
         accentColor: Colors.yellow,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      home: HomeScreen(),
     );
   }
 }
