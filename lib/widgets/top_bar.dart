@@ -5,9 +5,23 @@ class TopBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 20.0),
-      child: Text('Let\'s start!'),
+    return Container(
+      height: 150,
+      child: Expanded(
+        child: AppBar(
+          centerTitle: true,
+          backgroundColor: Colors.blue,
+          title: Center(
+            child: Text(
+              'Let\'s Start!',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 32,
+              ),
+            ),
+          ),
+        ),
+      ),
     );
   }
 }
