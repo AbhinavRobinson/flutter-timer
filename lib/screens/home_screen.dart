@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key key}) : super(key: key);
@@ -25,10 +26,12 @@ class HomeScreen extends StatelessWidget {
           backgroundColor: Colors.transparent,
           title: Text(
             'Let\'s Start!',
-            style: TextStyle(
-              fontSize: 48,
-              fontWeight: FontWeight.w300,
-              color: Color.fromRGBO(123, 137, 154, 1),
+            style: GoogleFonts.poppins(
+              textStyle: TextStyle(
+                fontSize: 48,
+                fontWeight: FontWeight.w400,
+                color: Color.fromRGBO(123, 137, 154, 1),
+              ),
             ),
           ),
         ),
