@@ -15,7 +15,14 @@ class _ClockState extends State<Clock> {
         height: 300.0,
         width: 300.0,
         decoration: BoxDecoration(
-          color: Color.fromRGBO(56, 67, 81, 1),
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              Color.fromRGBO(56, 67, 81, 1),
+              Color.fromRGBO(56, 67, 81, 0.75)
+            ],
+          ),
           borderRadius: BorderRadius.circular(300.0),
         ),
         child: Center(
