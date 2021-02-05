@@ -5,17 +5,8 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              Color.fromRGBO(56, 67, 81, 1),
-              Color.fromRGBO(35, 46, 58, 1),
-            ]),
-      ),
       child: Scaffold(
-        backgroundColor: Colors.transparent,
+        backgroundColor: Color.fromRGBO(35, 46, 58, 1),
         appBar: AppBar(
           automaticallyImplyLeading: false,
           elevation: 0.0,
@@ -23,11 +14,11 @@ class HomeScreen extends StatelessWidget {
           toolbarHeight: 150.0,
           backgroundColor: Colors.transparent,
           title: Text(
-            'Let\'s Start!',
+            'Time to Start!',
             style: GoogleFonts.poppins(
               textStyle: TextStyle(
-                fontSize: 38.0,
-                fontWeight: FontWeight.w300,
+                fontSize: 44.0,
+                fontWeight: FontWeight.w200,
                 color: Color.fromRGBO(123, 137, 154, 1),
               ),
             ),
