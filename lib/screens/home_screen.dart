@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -20,16 +18,16 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.transparent,
         appBar: AppBar(
           automaticallyImplyLeading: false,
-          elevation: 0,
+          elevation: 0.0,
           centerTitle: true,
-          toolbarHeight: 150,
+          toolbarHeight: 150.0,
           backgroundColor: Colors.transparent,
           title: Text(
             'Let\'s Start!',
             style: GoogleFonts.poppins(
               textStyle: TextStyle(
-                fontSize: 48,
-                fontWeight: FontWeight.w400,
+                fontSize: 38.0,
+                fontWeight: FontWeight.w300,
                 color: Color.fromRGBO(123, 137, 154, 1),
               ),
             ),
