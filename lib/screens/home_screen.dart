@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_timer/widgets/top_bar.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key key}) : super(key: key);
@@ -6,13 +7,10 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text(
-          'Pomodoro Timer',
-          style: TextStyle(color: Colors.yellowAccent),
-        ),
-        backgroundColor: Colors.black,
+      body: Column(
+        children: <Widget>[
+          TopBar(),
+        ],
       ),
       backgroundColor: Color.fromRGBO(33, 33, 45, 1),
     );
