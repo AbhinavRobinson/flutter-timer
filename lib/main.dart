@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_timer/screens/home_screen.dart';
 
 void main() {
+  Paint.enableDithering = true;
   runApp(MyApp());
 }
 
@@ -13,8 +14,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Pomodoro Timer',
       theme: ThemeData(
-        primaryColor: Colors.blue,
-        accentColor: Colors.yellow,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomeScreen(),
