@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
           'Pomodoro Timer',
           style: TextStyle(color: Colors.yellowAccent),
         ),
-        backgroundColor: Colors.black87,
+        backgroundColor: Colors.black,
       ),
       backgroundColor: Color.fromRGBO(33, 33, 45, 1),
     );
