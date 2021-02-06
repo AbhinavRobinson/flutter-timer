@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_timer/widgets/button_timer.dart';
 import 'package:flutter_timer/widgets/clock.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -28,6 +29,7 @@ class HomeScreen extends StatelessWidget {
         body: Column(
           children: <Widget>[
             Clock(),
+            ButtonTimer(),
           ],
         ),
       ),
