@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Color.fromRGBO(35, 46, 58, 1),
         accentColor: Color.fromRGBO(56, 67, 81, 1),
+        primaryColorLight: Color.fromRGBO(123, 137, 154, 1),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomeScreen(),

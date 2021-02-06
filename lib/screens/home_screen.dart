@@ -21,12 +21,14 @@ class HomeScreen extends StatelessWidget {
               textStyle: TextStyle(
                 fontSize: 44.0,
                 fontWeight: FontWeight.w200,
-                color: Color.fromRGBO(123, 137, 154, 1),
+                color: Theme.of(context).primaryColorLight,
               ),
             ),
           ),
         ),
         body: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Clock(),
             ButtonTimer(),
