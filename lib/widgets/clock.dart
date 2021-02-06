@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:clay_containers/clay_containers.dart';
 
 class Clock extends StatefulWidget {
   Clock({Key key}) : super(key: key);
@@ -13,6 +14,14 @@ class _ClockState extends State<Clock> {
     return Center(
       child: Container(
         color: Theme.of(context).primaryColor,
+        child: Center(
+          child: ClayContainer(
+            color: Theme.of(context).primaryColor,
+            height: 300.0,
+            width: 300.0,
+            borderRadius: 999.9,
+          ),
+        ),
       ),
     );
   }
