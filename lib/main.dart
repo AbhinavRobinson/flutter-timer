@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Pomodoro Timer',
       theme: ThemeData(
         primaryColor: Color.fromRGBO(35, 46, 58, 1),
+        accentColor: Color.fromRGBO(56, 67, 81, 1),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomeScreen(),

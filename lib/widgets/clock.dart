@@ -17,8 +17,11 @@ class _ClockState extends State<Clock> {
         child: Center(
           child: ClayContainer(
             color: Theme.of(context).primaryColor,
-            height: 300.0,
-            width: 300.0,
+            emboss: true,
+            height: 250.0,
+            width: 250.0,
+            depth: 10,
+            spread: 10,
             borderRadius: 999.9,
           ),
         ),
