@@ -27,16 +27,19 @@ class ButtonTimer extends StatelessWidget {
               height: 10.0,
             ),
             GestureDetector(
-              onTap: () {},
               child: ClayContainer(
                 color: Theme.of(context).primaryColor,
                 height: 75.0,
                 width: 75.0,
-                // emboss: true,
+                emboss: false,
                 depth: 10,
                 spread: 10,
                 child: Center(
-                  child: FaIcon(FontAwesomeIcons.play, size: 42),
+                  child: FaIcon(
+                    FontAwesomeIcons.play,
+                    size: 32,
+                    color: Theme.of(context).primaryColorLight,
+                  ),
                 ),
               ),
             ),
